@@ -45,7 +45,7 @@
 
 .nav-elements ul li {
     list-style-type: none;
-    padding: 0 15px;
+    padding: 17px 15px;
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
 }
@@ -54,7 +54,6 @@
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
     background: #484872;
-    padding: 17px 5px;
 }
 
 .nav-elements ul li a {
@@ -97,24 +96,17 @@
     }
 
     .header-nav ul li {
-        padding: 20px;
-    }
-
-    .header-nav ul li:hover {
-        width: 106%;
+        padding: 20px auto;
+        margin: 0;
+        width: 100%;
         display: flex;
         justify-content: center;
     }
-}
 
 @media screen and (max-width: 650px) {
     .header-nav {
         width: 80%;
     }
-
-    .header-nav ul li:hover {
-        width: 105%;
-        }
 
     .main-content {
         padding: 15% 10%;
